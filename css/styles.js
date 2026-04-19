@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    transition: 0.3s;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #1b5e20;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.contenedor {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #2e7d32;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 🌙 Modo oscuro */
+.modo-oscuro {
+    background-color: #121212;
+    color: white;
+}
+
+.modo-oscuro .contenedor {
+    background-color: #1e1e1e;
+}
+
+.modo-oscuro nav {
+    background-color: #000;
+}
